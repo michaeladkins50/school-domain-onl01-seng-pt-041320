@@ -7,6 +7,7 @@ class School
   def roster
     @roster
   end
+  
     def add_student(name, grade)
     if @roster[grade] != nil
       @roster[grade] << name
@@ -18,6 +19,8 @@ class School
   def grade(grade)
     @roster[grade]
   end
-
+  
+  def class_sort
+    
   
 end
